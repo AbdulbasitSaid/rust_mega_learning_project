@@ -9,6 +9,16 @@ After finishing each book or module, you will create a Rust project that applies
 
 The end goal is not a single product, but to become highly skilled at problem solving, systems thinking, and practical engineering.
 
+## Table of Content
+<!-- TOC -->
+
+- [Rust Mega Learning Project](#rust-mega-learning-project)
+    - [Project Description](#project-description)
+    - [Table of Content](#table-of-content)
+    - [Disciplines to cover and recommended resource](#disciplines-to-cover-and-recommended-resource)
+
+<!-- /TOC -->
+<!-- /TOC -->
 ## Disciplines to cover and recommended resource
 
  1. Foundations of Code and Craft →
