@@ -15,19 +15,20 @@ The end goal is not a single product, but to become highly skilled at problem so
 - [Rust Mega Learning Project](#rust-mega-learning-project)
     - [Project Description](#project-description)
     - [Table of Content](#table-of-content)
-    - [Disciplines to cover and recommended resource](#disciplines-to-cover-and-recommended-resource)
+    - [Disciplines and Core Resources](#disciplines-and-core-resources)
 
 <!-- /TOC -->
 <!-- /TOC -->
-## Disciplines to cover and recommended resource
+## Disciplines and Core Resources
 
- 1. Foundations of Code and Craft →
-    - The Rust Programming Language — Steve Klabnik & Carol Nichols
-    - Rust in Action — Tim McNamara
+ 1. Code and Craft →
+    - [The Rust Programming Language](https://rust-book.cs.brown.edu/experiment-intro.html) — Steve Klabnik & Carol Nichols
+    - [Rust in Action](https://www.rustinaction.com/) — Tim McNamara
 
  1. Computing Fundamentals →
-    - Computer Science: An Overview — J. Glenn Brookshear
+    - The Hidden Language of Computer Hardware and Software
     - Structure and Interpretation of Computer Programs — Harold Abelson & Gerald Jay Sussman
+    - Computer Systems: A Programmer’s Perspective — Bryant & O’Hallaron (for later in fundamentals).
 
  1. Mathematical Thinking →
     - Basic Math and Pre-Algebra For Dummies — Mark Zegarelli
@@ -46,16 +47,18 @@ The end goal is not a single product, but to become highly skilled at problem so
     - Designing Data-Intensive Applications — Martin Kleppmann
     - PostgreSQL: Up and Running — Regina Obe & Leo Hsu
 
- 1. Software engineering
+ 1. Software engineering →
+    - UML Distilled: A Brief Guide to the Standard Object Modeling Language — Martin Fowler
     - The Pragmatic Programmer — Andrew Hunt & David Thomas
-    - The Mythical Man-Month — Frederick Brooks
+    - The Mythical Man-Month — Frederick Brooks (optional)
     - The Software Craftsman — Sandro Mancuso
     - Software Engineering at Google — Titus Winters, Tom Manshreck, Hyrum Wright
     - Working Effectively with Legacy Code — Michael Feathers
-    - Accelerate — Nicole Forsgren, Jez Humble, Gene Kim
+    - Accelerate — Nicole Forsgren, Jez Humble, Gene Kim. (optional)
 
  1. Systemic Thinking →
-    - System Design Interview, Vol. 1 & 2 — Alex Xu
+    - System Design Interview, Vol. 1 — Alex Xu
+    - System Design Interview, Vol. 2 — Alex Xu
     - Distributed Systems — Maarten van Steen & Andrew Tanenbaum
 
  1. Scientific Method for Engineers →
@@ -69,22 +72,25 @@ The end goal is not a single product, but to become highly skilled at problem so
     - The Scientist’s Guide to Writing — Stephen Heard (optional support)
 
  1. Physics and Applied Physics →
+    - Fundamentals of Physics Halliday, Resnick, Walker
     - Physics for Scientists and Engineers — Raymond A. Serway
     - Applied Physics — Dale Ewen, Neill Schurter, P. Erickson
 
  1. Robotics and Mechatronics →
+    - Programming Arduino: Getting Started with Sketches — Simon Monk.
     - Make: Electronics — Charles Platt
     - Practical Electronics for Inventors — Paul Scherz & Simon Monk
     - Learning ROS for Robotics Programming — Enrique Fernández
     - Introduction to Autonomous Robots — Nikolaus Correll, Bradley Hayes, et al.
     - Modern Robotics: Mechanics, Planning, and Control — Kevin Lynch & Frank Park
+    - Designing Embedded Systems with PIC Microcontrollers — Tim Wilmshurst (or an STM32/ARM equivalent).
 
  1. Machine Learning Foundations →
     - Pattern Recognition and Machine Learning — Christopher Bishop
     - Deep Learning — Ian Goodfellow, Yoshua Bengio, Aaron Courville
     - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow — Aurélien Géron
 
- 1. Systems Builder Capstone
+ 1. Systems Builder Capstone →
     - No new books — integration milestone.
     - Apply all previous disciplines into long-term Rust projects.
     - Maintain research-style documentation as a continuing habit.
