@@ -26,6 +26,7 @@ The end goal is not a single product, but to become highly skilled at problem so
     - [Rust in Action](https://www.rustinaction.com/) — Tim McNamara
 
  1. Computing Fundamentals →
+    - Computer Science Illuminated — Nell Dale & John Lewis (broader overview of internet, hardware, and CS foundations)
     - The Hidden Language of Computer Hardware and Software
     - Structure and Interpretation of Computer Programs — Harold Abelson & Gerald Jay Sussman
     - Computer Systems: A Programmer’s Perspective — Bryant & O’Hallaron (for later in fundamentals).
@@ -34,6 +35,9 @@ The end goal is not a single product, but to become highly skilled at problem so
     - Basic Math and Pre-Algebra For Dummies — Mark Zegarelli
     - Algebra I Workbook For Dummies — Mary Jane Sterling
     - Precalculus Mathematics in a Nutshell — George Simmons
+    - Calculus Made Easy — Silvanus P. Thompson (gentle, intuitive introduction)
+    - Calculus — Michael Spivak (rigorous, optional later if you want mathematical maturity)
+    - 3D Math Primer for Graphics and Game Development — Fletcher Dunn & Ian Parberry
 
  1. Algorithmic Problem Solving →
     - Introduction to Algorithms — Thomas H. Cormen, Charles E. Leiserson, Ronald Rivest, Clifford Stein (CLRS)
@@ -44,17 +48,20 @@ The end goal is not a single product, but to become highly skilled at problem so
     - Refactoring — Martin Fowler
 
  1. Data and Persistence →
+    - Database System Concepts — Abraham Silberschatz, Henry Korth, S. Sudarshan
+    - SQL for Smarties — Joe Celko
     - Designing Data-Intensive Applications — Martin Kleppmann
     - PostgreSQL: Up and Running — Regina Obe & Leo Hsu
 
  1. Software engineering →
+    - Pro Git (2nd Edition) — Scott Chacon & Ben Straub
     - UML Distilled: A Brief Guide to the Standard Object Modeling Language — Martin Fowler
     - The Pragmatic Programmer — Andrew Hunt & David Thomas
-    - The Mythical Man-Month — Frederick Brooks (optional)
     - The Software Craftsman — Sandro Mancuso
     - Software Engineering at Google — Titus Winters, Tom Manshreck, Hyrum Wright
     - Working Effectively with Legacy Code — Michael Feathers
     - Accelerate — Nicole Forsgren, Jez Humble, Gene Kim. (optional)
+    - The Mythical Man-Month — Frederick Brooks (optional)
 
  1. Systemic Thinking →
     - System Design Interview, Vol. 1 — Alex Xu
@@ -69,7 +76,7 @@ The end goal is not a single product, but to become highly skilled at problem so
 
  1. Research Literacy →
     - How to Read and Understand a Scientific Paper — Jennifer Raff
-    - The Scientist’s Guide to Writing — Stephen Heard (optional support)
+    - The Scientist’s Guide to Writing — Stephen Heard **(optional)**
 
  1. Physics and Applied Physics →
     - Fundamentals of Physics Halliday, Resnick, Walker
@@ -77,18 +84,41 @@ The end goal is not a single product, but to become highly skilled at problem so
     - Applied Physics — Dale Ewen, Neill Schurter, P. Erickson
 
  1. Robotics and Mechatronics →
-    - Programming Arduino: Getting Started with Sketches — Simon Monk.
-    - Make: Electronics — Charles Platt
-    - Practical Electronics for Inventors — Paul Scherz & Simon Monk
-    - Learning ROS for Robotics Programming — Enrique Fernández
-    - Introduction to Autonomous Robots — Nikolaus Correll, Bradley Hayes, et al.
-    - Modern Robotics: Mechanics, Planning, and Control — Kevin Lynch & Frank Park
-    - Designing Embedded Systems with PIC Microcontrollers — Tim Wilmshurst (or an STM32/ARM equivalent).
+    - **Electronics & Hardware Foundations**
+      - Pattern Recognition and Machine Learning — Christopher Bishop
+      - Deep Learning — Ian Goodfellow, Yoshua Bengio, Aaron Courville
+      - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow — Aurélien Géron
+
+    - **Microcontrollers & Embedded Platforms**
+      - Exploring Arduino — Jeremy Blum
+      - Getting Started with Raspberry Pi — Matt Richardson & Shawn Wallace
+      - Designing Embedded Systems with PIC Microcontrollers — Tim Wilmshurst (general embedded systems engineering)
+
+    - **Mechanical & Fabrication Skills**
+      - Welding Essentials — William Galvery & Frank Marlow
+      - Woodworking Basics — Peter Korn
+      - Soldering Made Simple — Mitch Altman (small guide)
+      - Fusion 360 for Makers — Lydia Sloan Cline (CAD + 3D Printing)
+
+    - **Robotics Math & Control Theory**
+      - Linear System Theory — Wilson Rugh (for control systems)
+      - Robotics, Vision and Control — Peter Corke
+      - Modern Robotics: Mechanics, Planning, and Control — Kevin Lynch & Frank Park (already included, but here it connects math → robotics)
+
+    - **Robotics Programming & Control**
+         - Learning ROS for Robotics Programming — Enrique Fernández
+         - Introduction to Autonomous Robots — Nikolaus Correll, Bradley Hayes, et al.
+         - Modern Robotics: Mechanics, Planning, and Control — Kevin Lynch & Frank Park
+
+    - **Visualization & Simulation**
+      - Blender For Dummies — Jason van Gumster
+      - (Optional advanced) Blender 3D: Noob to Pro (free wiki guide)
+      - Use with ROS/Gazebo for physical simulation and robot visualization
 
  1. Machine Learning Foundations →
-    - Pattern Recognition and Machine Learning — Christopher Bishop
-    - Deep Learning — Ian Goodfellow, Yoshua Bengio, Aaron Courville
-    - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow — Aurélien Géron
+      - Pattern Recognition and Machine Learning — Christopher Bishop
+      - Deep Learning — Ian Goodfellow, Yoshua Bengio, Aaron Courville
+      - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow — Aurélien Géron
 
  1. Systems Builder Capstone →
     - No new books — integration milestone.
