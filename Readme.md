@@ -1,16 +1,31 @@
-# Self-University Roadmap
+# Year Self-Learning University — Leveling System
 
 **Note:** Each *Level* should take **at least 6 months**, with 1 year being a realistic pace for most learners.  
 If you already have experience and can dedicate significant time (e.g., daily study blocks, weekend revision), you may progress faster.  
 The focus should be **depth and mastery**, not speed.
 
+**Principle:**  
+
+- Books = curriculum  
+- Projects = exams  
+- Rust is the **primary implementation language** for all software concepts  
+
 ---
 
-## Table of content
 <!-- TOC -->
 
-- [Self-University Roadmap](#self-university-roadmap)
+- [Year Self-Learning University — Leveling System](#year-self-learning-university--leveling-system)
     - [Table of content](#table-of-content)
+    - [Year 1 — Foundations of Computing, Math, and Rust](#year-1--foundations-of-computing-math-and-rust)
+    - [Year 2 — Programming, Precalculus, Calculus, and Software Fundamentals](#year-2--programming-precalculus-calculus-and-software-fundamentals)
+    - [Year 3 — Advanced Software Engineering and System Foundations](#year-3--advanced-software-engineering-and-system-foundations)
+    - [Year 4 — System Design, Distributed Systems, Rust in Action, and DevOps](#year-4--system-design-distributed-systems-rust-in-action-and-devops)
+    - [Year 5 — Capstone Year: Software Engineering Masterpiece](#year-5--capstone-year-software-engineering-masterpiece)
+    - [Year 6 — Robotics Foundations: Electronics, Hardware, and Embedded Systems](#year-6--robotics-foundations-electronics-hardware-and-embedded-systems)
+    - [Year 7 — Robotics Math, Control Theory, and Programming](#year-7--robotics-math-control-theory-and-programming)
+    - [Year 8 — Visualization, Simulation, and Machine Learning for Robotics](#year-8--visualization-simulation-and-machine-learning-for-robotics)
+    - [Year 9 — Capstone Year: Large-Scale Robotics Project](#year-9--capstone-year-large-scale-robotics-project)
+    - [Year 10 — Integration, Research Literacy, and Mastery](#year-10--integration-research-literacy-and-mastery)
     - [Disciplines and books](#disciplines-and-books)
         - [Code and Craft](#code-and-craft)
             - [The Rust Programming Language — Steve Klabnik & Carol Nichols](#the-rust-programming-language--steve-klabnik--carol-nichols)
@@ -98,22 +113,168 @@ The focus should be **depth and mastery**, not speed.
             - [Peopleware — Tom DeMarco & Timothy Lister](#peopleware--tom-demarco--timothy-lister)
             - [Producing Open Source Software — Karl Fogel](#producing-open-source-software--karl-fogel)
             - [Forge Your Future with Open Source — VM Brasseur](#forge-your-future-with-open-source--vm-brasseur)
-    - [Level Structure](#level-structure)
-        - [Level 1 — Foundations of Computing and Math](#level-1--foundations-of-computing-and-math)
-        - [Level 2 — Programming, Precalculus, and SICP](#level-2--programming-precalculus-and-sicp)
-        - [Level 3 — Data Structures and Design Patterns](#level-3--data-structures-and-design-patterns)
-        - [Level 4 — Algorithms and Deeper Math](#level-4--algorithms-and-deeper-math)
-        - [Level 5 — Systems and Databases](#level-5--systems-and-databases)
-        - [Level 6 — Software Engineering Practice](#level-6--software-engineering-practice)
-        - [Level 7 — System Design and Distributed Systems](#level-7--system-design-and-distributed-systems)
-        - [Level 8 — DevOps and Security](#level-8--devops-and-security)
-        - [Level 9 — Research and Scientific Practice](#level-9--research-and-scientific-practice)
-        - [Level 10 — Physics and Applied Physics](#level-10--physics-and-applied-physics)
-        - [Level 11–13 — Robotics and Mechatronics](#level-1113--robotics-and-mechatronics)
-        - [Level 14 — Machine Learning](#level-14--machine-learning)
-        - [Level 15 — Project Management and Capstone](#level-15--project-management-and-capstone)
 
 <!-- /TOC -->
+<!-- /TOC -->
+## Year 1 — Foundations of Computing, Math, and Rust
+
+- **Books:**  
+  - Rust Programming Language — Steve Klabnik & Carol Nichols  
+  - Computer Science Illuminated — Nell Dale & John Lewis  
+  - Hidden Language of Computer Hardware — Charles Petzold  
+  - Basic Math and Pre-Algebra — Mark Zegarelli  
+  - Algebra I Workbook — Mary Jane Sterling  
+  - SQL for Smarties — Joe Celko  
+  - Pro Git — Scott Chacon & Ben Straub  
+
+- **Project:**  
+  - CLI calculator, small database-backed app, Rust implementation  
+
+---
+
+## Year 2 — Programming, Precalculus, Calculus, and Software Fundamentals
+
+- **Books:**  
+  - Structure and Interpretation of Computer Programs — Abelson & Sussman  
+  - Precalculus Mathematics in a Nutshell — George Simmons  
+  - Calculus Made Easy — Silvanus Thompson  
+  - Calculus — Michael Spivak *(optional depth)*  
+  - Grokking Data Structures — Educative.io  
+  - Rust: implement DS and small algorithms  
+
+- **Project:**  
+  - Rust-based mini project demonstrating data structures and algorithm usage  
+  - Simple simulations for calculus concepts  
+
+---
+
+## Year 3 — Advanced Software Engineering and System Foundations
+
+- **Books:**  
+  - Head First Design Patterns — Freeman & Robson  
+  - Refactoring — Martin Fowler  
+  - Introduction to Algorithms (CLRS) — Cormen et al. *(optional depth)*  
+  - Computer Systems: A Programmer’s Perspective — Bryant & O’Hallaron  
+  - UML Distilled — Fowler  
+  - The Pragmatic Programmer — Hunt & Thomas  
+  - Software Craftsman — Mancuso  
+  - PostgreSQL: Up and Running — Regina Obe & Leo Hsu  
+  - Database System Concepts — Silberschatz et al.  
+
+- **Project:**  
+  - Build a full Rust library with design patterns, DS, and persistence  
+  - Small team collaboration simulation using Git  
+
+---
+
+## Year 4 — System Design, Distributed Systems, Rust in Action, and DevOps
+
+- **Books:**  
+  - System Design Interview Vol. 1 & 2 — Alex Xu  
+  - Distributed Systems — van Steen & Tanenbaum  
+  - Rust in Action — Tim McNamara  
+  - Designing Data-Intensive Applications — Martin Kleppmann  
+  - Accelerate — Forsgren et al. *(optional)*  
+  - Working Effectively with Legacy Code — Feathers  
+  - Mythical Man-Month — Brooks *(optional)*  
+  - Phoenix Project — Kim et al.  
+  - DevOps Handbook — Kim et al.  
+  - Continuous Delivery — Humble & Farley  
+  - Building Secure and Reliable Systems — Adkins et al.  
+  - Web Application Hacker’s Handbook *(optional)*  
+
+- **Project:**  
+  - Large-scale Rust system demonstrating distributed system concepts, persistence, DevOps, and security integration  
+
+---
+
+## Year 5 — Capstone Year: Software Engineering Masterpiece
+
+- **Books:**  
+  - Art of Project Management — Berkun  
+  - Peopleware — DeMarco & Lister  
+  - Producing Open Source Software — Fogel  
+  - Forge Your Future with Open Source — VM Brasseur  
+
+- **Project:**  
+  - **Strictly for a large-scale software project** (1 year)  
+  - Must combine DS, algorithms, system design, software engineering, and Rust implementation  
+  - Fully documented, deployed, and optionally open-source  
+
+---
+
+## Year 6 — Robotics Foundations: Electronics, Hardware, and Embedded Systems
+
+- **Books:**  
+  - Electronics & Hardware Foundations  
+  - Exploring Arduino — Jeremy Blum  
+  - Getting Started with Raspberry Pi — Richardson & Wallace  
+  - Designing Embedded Systems with PIC Microcontrollers — Wilmshurst  
+  - Welding Essentials — Galvery & Marlow  
+  - Woodworking Basics — Peter Korn  
+  - Soldering Made Simple — Mitch Altman  
+  - Fusion 360 for Makers — Lydia Sloan Cline  
+
+- **Project:**  
+  - Build progressively complex electronics projects  
+  - Implement embedded Rust programs  
+
+---
+
+## Year 7 — Robotics Math, Control Theory, and Programming
+
+- **Books:**  
+  - Linear System Theory — Wilson Rugh  
+  - Robotics, Vision and Control — Peter Corke  
+  - Modern Robotics — Lynch & Park  
+  - Learning ROS for Robotics Programming — Enrique Fernández et al  
+  - Introduction to Autonomous Robots — Correll et al  
+
+- **Project:**  
+  - Build robotic systems integrating Rust programming and control theory  
+  - Simulate robot motion and control algorithms  
+
+---
+
+## Year 8 — Visualization, Simulation, and Machine Learning for Robotics
+
+- **Books:**  
+  - Blender For Dummies — van Gumster  
+  - Blender 3D: Noob to Pro *(optional)*  
+  - Pattern Recognition and Machine Learning — Bishop  
+  - Deep Learning — Goodfellow  
+  - Hands-On ML with Scikit-Learn, Keras, TensorFlow — Géron  
+
+- **Project:**  
+  - Robotic simulations in 3D using Blender  
+  - Train ML models for autonomous robotic behavior  
+
+---
+
+## Year 9 — Capstone Year: Large-Scale Robotics Project
+
+- **Books:**  
+  - Fundamentals of Physics — Halliday, Resnick, Walker  
+  - Physics for Scientists and Engineers — Serway  
+  - Applied Physics — Ewen et al.  
+  - How to Write a Lot — Paul Silvia  
+  - Craft of Research — Booth et al.  
+  - Research Methods for Engineers — Thiel  
+  - How to Read and Understand a Scientific Paper — Raff  
+  - Scientist’s Guide to Writing *(optional)*  
+
+- **Project:**  
+  - **Strictly for a very large-scale robotics + software integration project**  
+  - Could span multiple sub-projects (mechanical + electronics + Rust software + ML + visualization)  
+
+---
+
+## Year 10 — Integration, Research Literacy, and Mastery
+
+- **Books:**  
+  - Review all prior resources as needed  
+  - Optional deep dives into any missing or advanced topics  
+  - Focus on system-level thinking, multi-disciplinary integration  
 
 ## Disciplines and books
 
@@ -233,15 +394,15 @@ The focus should be **depth and mastery**, not speed.
 
 1. ### **Robotics and Mechatronics**  
 
-   - #### *Electronics & Hardware Foundations*  
+   - #### **Electronics & Hardware Foundations**
 
-   - #### Exploring Arduino — Jeremy Blum  
+     - #### Exploring Arduino — Jeremy Blum  
 
-   - #### Getting Started with Raspberry Pi — Matt Richardson & Shawn Wallace  
+     - #### Getting Started with Raspberry Pi — Matt Richardson & Shawn Wallace  
 
-   - #### Designing Embedded Systems with PIC Microcontrollers — Tim Wilmshurst  
+     - #### Designing Embedded Systems with PIC Microcontrollers — Tim Wilmshurst  
 
-   - #### *Mechanical & Fabrication Skills*  
+   - #### **Mechanical & Fabrication Skills**
 
      - #### Welding Essentials — William Galvery & Frank Marlow  
 
@@ -251,7 +412,7 @@ The focus should be **depth and mastery**, not speed.
 
      - #### Fusion 360 for Makers — Lydia Sloan Cline  
 
-   - #### *Robotics Math & Control Theory*  
+   - #### **Robotics Math & Control Theory**  
 
      - #### Linear System Theory — Wilson Rugh  
 
@@ -259,7 +420,7 @@ The focus should be **depth and mastery**, not speed.
 
      - #### Modern Robotics — Kevin Lynch & Frank Park  
 
-   - #### *Robotics Programming & Control*  
+   - #### **Robotics Programming & Control**  
 
      - #### Learning ROS for Robotics Programming — Enrique Fernández et al  
 
@@ -290,74 +451,3 @@ The focus should be **depth and mastery**, not speed.
    - #### Forge Your Future with Open Source — VM Brasseur  
 
 ---
-
-## Level Structure
-
-### Level 1 — Foundations of Computing and Math
-
-- *Books*: Computer Science Illuminated, Hidden Language of Computer Hardware, Basic Math, Algebra I  
-- *Project*: Build a simple CLI calculator, document learning in a lab notebook  
-
-### Level 2 — Programming, Precalculus, and SICP
-
-- *Books*: SICP, Precalculus Mathematics in a Nutshell, Calculus Made Easy  
-- *Project*: Scheme or Python project implementing higher-order functions  
-
-### Level 3 — Data Structures and Design Patterns
-
-- *Books*: Grokking Data Structures, Head First Design Patterns, Refactoring  
-- *Project*: Implement a small library (data structures + design patterns)  
-
-### Level 4 — Algorithms and Deeper Math
-
-- *Books*: Grokking Algorithms, CLRS (optional depth), 3D Math Primer  
-- *Project*: Visualization of algorithm performance (graphs, 3D demos)  
-
-### Level 5 — Systems and Databases
-
-- *Books*: Computer Systems: A Programmer’s Perspective, Database System Concepts, SQL for Smarties, PostgreSQL Up and Running  
-- *Project*: Build a small database-backed application  
-
-### Level 6 — Software Engineering Practice
-
-- *Books*: Pro Git, UML Distilled, Pragmatic Programmer, Software Craftsman, SE at Google, Legacy Code, Accelerate (optional), Mythical Man-Month (optional)  
-- *Project*: Refactor and scale an existing project collaboratively  
-
-### Level 7 — System Design and Distributed Systems
-
-- *Books*: System Design Interview Vol. 1 & 2, Distributed Systems  
-- *Project*: Design and document a scalable service architecture  
-
-### Level 8 — DevOps and Security
-
-- *Books*: Phoenix Project, DevOps Handbook, Continuous Delivery, Google SRE, Web App Hacker’s Handbook (optional)  
-- *Project*: Deploy and secure a production-grade service  
-
-### Level 9 — Research and Scientific Practice
-
-- *Books*: Craft of Research, Keeping a Lab Notebook, How to Write a Lot, Research Methods for Engineers, How to Read a Scientific Paper  
-- *Project*: Write a short technical research paper with reproducible results  
-
-### Level 10 — Physics and Applied Physics
-
-- *Books*: Fundamentals of Physics, Physics for Scientists and Engineers, Applied Physics  
-- *Project*: Simulate a physical system (mechanics, circuits, etc.)  
-
-### Level 11–13 — Robotics and Mechatronics
-
-- *Books*: Arduino, Raspberry Pi, PIC Microcontrollers, Welding, Fusion 360, Linear System Theory, Modern Robotics, ROS, Blender  
-- *Projects*: Build progressively complex robotic systems (starting with Arduino bots, leading to autonomous robot simulations and physical builds)  
-
-### Level 14 — Machine Learning
-
-- *Books*: Bishop, Goodfellow, Géron  
-- *Project*: Train, evaluate, and deploy a custom ML model in a real-world task  
-
-### Level 15 — Project Management and Capstone
-
-- *Books*: Project Management, Peopleware, Producing OSS, Forge Your Future  
-- *Project*: Large-scale open source or robotics project, fully documented and released  
-
----
-
-**Principle:** Books are the *curriculum*. Projects are the *exams*.  
