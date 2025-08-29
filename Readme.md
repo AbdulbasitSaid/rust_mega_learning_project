@@ -1,4 +1,4 @@
-# Year Self-Learning University — System
+# The Self-Learning University — System
 
 **Note:** Each *Level* should take **at least 6 months**, with 1 year being a realistic pace for most learners.  
 If you already have experience and can dedicate significant time (e.g., daily study blocks, weekend revision), you may progress faster.  
