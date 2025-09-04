@@ -53,7 +53,7 @@ The focus should be **depth and mastery**, not speed.
    ```mermaid
    flowchart TD
    A[Rust Programming Language] --> B[Pro Git]
-    A --> C[SQL for Smarties]
+   A --> C[SQL for Smarties]
    B --> D[Computer Science Illuminated]
    C --> D
    D --> E[Basic Math and Pre-Algebra]
