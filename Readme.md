@@ -58,7 +58,7 @@ The focus should be **depth and mastery**, not speed.
    C --> D
    D --> E[Basic Math and Pre-Algebra]
    E --> F[Algebra I Workbook]
-    F --> G[Hidden Language of Computer Hardware]
+   F --> G[Hidden Language of Computer Hardware]
     style A fill:#B7410E, stroke:none
     style B fill:#F1502F,stroke:none
     style C fill:#336790, stroke:none
