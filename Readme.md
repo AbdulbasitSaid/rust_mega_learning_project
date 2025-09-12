@@ -19,12 +19,18 @@ This a project guide for learning and developing an interactive and gamified sof
     - [Phase 5 Cooking physics and research](#phase-5-cooking-physics-and-research)
         - [Phase 5 Books and resources](#phase-5-books-and-resources)
         - [Phase 5 app milestones](#phase-5-app-milestones)
+    - [Study Guide](#study-guide)
+        - [Daily time management](#daily-time-management)
+        - [Study progression strategy](#study-progression-strategy)
+        - [Rules](#rules)
+        - [Daily note template](#daily-note-template)
+        - [Weekly note template](#weekly-note-template)
 
 <!-- /TOC -->
 
 ## Phase 1  — Foundations of Software Engineering + Basic Math
 
-👉 Goal: Build a solid MVP of your gamified app while sharpening your fundamentals.
+🥅 Goal: Build a solid MVP of your gamified app while sharpening your fundamentals.
 Everything you learn becomes directly integrated into the app as gamified modules.
 
 ### Phase 1 Books & Resources
@@ -53,7 +59,7 @@ Everything you learn becomes directly integrated into the app as gamified module
 
 ## Phase 2  — DSA System design and more maths
 
-👉 Goal: Deepen your CS knowledge, maths and expand app modules.
+🥅 Goal: Deepen your CS knowledge, maths and expand app modules.
 
 ### Phase 2 Books and Resources
 
@@ -77,7 +83,7 @@ Everything you learn becomes directly integrated into the app as gamified module
 
 ## Phase 3 Pre-Calculus, Calculus, and more Software Crafting
 
-👉 Goal: Advance into math needed for graphics/physics while maturing engineering practices.
+🥅 Goal: Advance into math needed for graphics/physics while maturing engineering practices.
 
 ### Phase 3 books and resources
 
@@ -124,3 +130,90 @@ Everything you learn becomes directly integrated into the app as gamified module
 - [ ] 🎮 Add research literacy module (teach problem-solving & scientific method in gamified way)
 - [ ] 🌐 Grow app into multi-platform product with paid tiers + community features
 - [ ] ⚒️ Keep improve app modules
+
+## Study Guide
+
+### Daily time management
+
+- Dedicate 3 hours a day every day.
+
+  For practical resource, use the following strategy:
+
+  > learn (50 mins) --> break(10 mins) --> practice (80 mins) --> break(10 mins) --> review (30 mins)
+
+- for theory resources:
+
+  > learn (25 mins) --> break (5 mins) --> learn (25 mins) --> break (5 mins) --> \
+  learn (25 mins) --> break (5 mins) --> learn (25 mins) --> break (5 mins) --> \
+  learn (25 mins) --> break (5 mins) --> review (25 mins)
+
+- Use Sundays for reflection and Dev-log
+  > review resource 1 (30 mins) --> dev log (50 min) --> \
+  break (10 mins) --> \
+  review resource 2 (30 mins) --> dev log (50 min)
+
+### Study progression strategy
+
+- Study two resource in parallel until completion by dedicating a day for one resource:
+
+  > MON == resource 1 --> \
+  TUE == resource 2 --> \
+  WED == resource 1 --> \
+  THU == resource 2 --> \
+  FRI == resource 1 --> \
+  SAT == resource 2 --> \
+  SUN == review and dev-log: resource 1 --> resource 2
+
+### Rules
+
+- Complete all resources before working on milestones
+- Milestones should also only be dedicated 3 hours a day.
+- Milestones must be completed before moving to next phase.
+
+### Daily note template
+
+```markdown
+# 📆 Daily Study Log {{date}}
+Date: {{date:dddd, MMMM DD, YYYY}}
+## 📖 What I studied today:
+- {{topic}}:
+
+## 🧠 Key Learnings:
+- {{key-learning}}
+
+## 🧩 Problems I Faced:
+- {{problem-faced}}
+
+## 🚀 Breakthroughs and Solutions:
+- {{solution}}
+
+## 📓 Devlog Ideas:
+- {{devlog-idea}}
+
+## 🎯 Tomorrow's Focus:
+- {{tomorrow-focus}}
+```
+
+### Weekly note template
+
+```markdown
+# 🧠 Week {{number}} Reflection
+## ✅ Topics Covered:
+- {{topic-1}}
+- {{topic-2}}
+## 🎯 Achievements:
+- {{Achievement-1}}
+- {{Achievement-2}}
+## 🧱 Struggles:
+- {{struggles}}
+
+## 🌟 Breakthroughs:
+- {{Breakthroughs}}
+
+## 📜 Devlog Written?
+- [ ] Yes
+- [ ] No
+
+## 🗺 Plan for Next Week:
+- {{plan}}
+```
