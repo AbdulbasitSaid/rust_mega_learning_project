@@ -23,6 +23,10 @@ This a project guide for learning and developing an interactive and gamified sof
         - [Daily time management](#daily-time-management)
         - [Study progression strategy](#study-progression-strategy)
         - [Rules](#rules)
+            - [Complete all resources before working on milestones](#complete-all-resources-before-working-on-milestones)
+            - [Milestones should also only be dedicated 3 hours a day](#milestones-should-also-only-be-dedicated-3-hours-a-day)
+            - [🔄 Resource Replacement Rule](#-resource-replacement-rule)
+            - [Milestones must be completed before moving to next phase](#milestones-must-be-completed-before-moving-to-next-phase)
         - [Daily note template](#daily-note-template)
         - [Weekly note template](#weekly-note-template)
 
@@ -44,6 +48,7 @@ Everything you learn becomes directly integrated into the app as gamified module
 - [ ] Database System Concepts
 - [ ] [Docker basics](https://docker-curriculum.com/)
 - [ ] Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation — Jez Humble & David Farley
+- [ ] pro git
 - [ ] mental maths
 - [ ] [Grammar, Arithmetic, Basic geometry and measurement, Algebra basics  (khan academy)](https://www.khanacademy.org/profile/me/courses)
 - [ ] Rive basics and flutter animation basic
@@ -140,6 +145,7 @@ Everything you learn becomes directly integrated into the app as gamified module
   For practical resource, use the following strategy:
 
   > learn (50 mins) --> break(10 mins) --> practice (80 mins) --> break(10 mins) --> review (30 mins)
+>
 
 - for theory resources:
 
@@ -151,6 +157,53 @@ Everything you learn becomes directly integrated into the app as gamified module
   > review resource 1 (30 mins) --> dev log (50 min) --> \
   break (10 mins) --> \
   review resource 2 (30 mins) --> dev log (50 min)
+
+  ```mermaid
+    flowchart TD
+    Start(("⏰ Daily 3h Study")) --> Practical(["🛠 Practical Resources"])
+    Start --> Theory(["📘 Theory Resources"])
+    Start --> Sunday(["📝 Sunday Reflection"])
+
+    %% Practical
+    Practical --> P1(["📖 Learn (50m)"])
+    P1 --> P2(["☕ Break (10m)"])
+    P2 --> P3(["💻 Practice (80m)"])
+    P3 --> P4(["☕ Break (10m)"])
+    P4 --> P5(["🔍 Review (30m)"])
+
+    %% Theory
+    Theory --> T1(["📖 Learn (25m)"])
+    T1 --> T2(["☕ Break (5m)"])
+    T2 --> T3(["📖 Learn (25m)"])
+    T3 --> T4(["☕ Break (5m)"])
+    T4 --> T5(["📖 Learn (25m)"])
+    T5 --> T6(["☕ Break (5m)"])
+    T6 --> T7(["📖 Learn (25m)"])
+    T7 --> T8(["☕ Break (5m)"])
+    T8 --> T9(["📖 Learn (25m)"])
+    T9 --> T10(["☕ Break (5m)"])
+    T10 --> T11(["🔍 Review (25m)"])
+
+    %% Sunday
+    Sunday --> S1(["🔍 Review Resource 1 (30m)"])
+    S1 --> S2(["✍️ Dev-log (50m)"])
+    S2 --> S3(["☕ Break (10m)"])
+    S3 --> S4(["🔍 Review Resource 2 (30m)"])
+    S4 --> S5(["✍️ Dev-log (50m)"])
+
+    %% Styles
+    classDef learn fill:#9fd3c7,stroke:#333,stroke-width:2px,color:#000;
+    classDef break fill:#f7d6bf,stroke:#333,stroke-width:2px,color:#000;
+    classDef practice fill:#f2a7a7,stroke:#333,stroke-width:2px,color:#000;
+    classDef review fill:#ffe699,stroke:#333,stroke-width:2px,color:#000;
+    classDef devlog fill:#d5a6bd,stroke:#333,stroke-width:2px,color:#000;
+
+    class P1,T1,T3,T5,T7,T9 learn;
+    class P2,P4,T2,T4,T6,T8,T10,S3 break;
+    class P3 practice;
+    class P5,T11,S1,S4 review;
+    class S2,S5 devlog;
+  ```
 
 ### Study progression strategy
 
@@ -164,17 +217,57 @@ Everything you learn becomes directly integrated into the app as gamified module
   SAT == resource 2 --> \
   SUN == review and dev-log: resource 1 --> resource 2
 
+  ```mermaid
+  flowchart TD
+    Start(("📅 Weekly Study Schedule")) --> MON[" 🌞 MON: Resource 1"]
+    MON --> TUE[" 🔥 TUE: Resource 2"]
+    TUE --> WED[" ☀️ WED: Resource 1"]
+    WED --> THU[" ⚡ THU: Resource 2"]
+    THU --> FRI[" 🌟 FRI: Resource 1"]
+    FRI --> SAT[" 💻 SAT: Resource 2"]
+    SAT --> SUN[" 📝 SUN: Review & Dev-log 
+     Resource 1 & 2"]
+
+    %% Styles
+    classDef resource1 fill:#9fd3c7,stroke:#333,stroke-width:2px,color:#000;
+    classDef resource2 fill:#f2a7a7,stroke:#333,stroke-width:2px,color:#000;
+    classDef review fill:#ffe699,stroke:#333,stroke-width:2px,color:#000;
+
+    class MON,WED,FRI resource1;
+    class TUE,THU,SAT resource2;
+    class SUN review;
+    ```
+
 ### Rules
 
-- Complete all resources before working on milestones
-- Milestones should also only be dedicated 3 hours a day.
-- Milestones must be completed before moving to next phase.
+- #### Complete all resources before working on milestones
+
+- #### Milestones should also only be dedicated 3 hours a day
+
+- #### 🔄 Resource Replacement Rule
+
+  ```mermaid
+
+  flowchart TD
+    A[🎯 Current Resource]:::current -->|✅ Completed| B[🔄 Replace with 
+    Next Resource]:::replace
+    B --> C[📚 Continue Study Loop]:::loop
+    C --> A
+    %% styles
+    classDef current fill:#9fd3c7,stroke:#333,stroke-width:2px,color:#000;
+    classDef replace fill:#f2a7a7,stroke:#333,stroke-width:2px,color:#000;
+    classDef loop fill:#ffe699,stroke:#333,stroke-width:2px,color:#000;
+    
+  ```
+
+- #### Milestones must be completed before moving to next phase
 
 ### Daily note template
 
 ```markdown
 # 📆 Daily Study Log {{date}}
-Date: {{date:dddd, MMMM DD, YYYY}}
+Date: {{date:dddd, MMMM DD,
+ YYYY}}
 ## 📖 What I studied today:
 - {{topic}}:
 
