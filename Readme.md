@@ -1,35 +1,35 @@
 # The Gamified Ultra-learning Project
 
-This a project guide for learning and developing an interactive and gamified software engineering app.
 <!-- TOC -->
 
 - [The Gamified Ultra-learning Project](#the-gamified-ultra-learning-project)
-    - [Phase 1  — Foundations of Software Engineering + Basic Math](#phase-1---foundations-of-software-engineering--basic-math)
-        - [Phase 1 Books & Resources](#phase-1-books--resources)
-        - [Phase 1 App Milestone](#phase-1-app-milestone)
-    - [Phase 2  — DSA System design and more maths](#phase-2---dsa-system-design-and-more-maths)
-        - [Phase 2 Books and Resources](#phase-2-books-and-resources)
-        - [Phase 2 App Milestones](#phase-2-app-milestones)
-    - [Phase 3 Pre-Calculus, Calculus, and more Software Crafting](#phase-3-pre-calculus-calculus-and-more-software-crafting)
-        - [Phase 3 books and resources](#phase-3-books-and-resources)
-        - [Phase 3 App Milestones](#phase-3-app-milestones)
-    - [Phase 4 3D Math + Physics](#phase-4-3d-math--physics)
-        - [Phase 4 Books & Resources](#phase-4-books--resources)
-        - [Phase 4 App milestones](#phase-4-app-milestones)
-    - [Phase 5 Cooking physics and research](#phase-5-cooking-physics-and-research)
-        - [Phase 5 Books and resources](#phase-5-books-and-resources)
-        - [Phase 5 app milestones](#phase-5-app-milestones)
-    - [Study Guide](#study-guide)
-        - [Daily time management](#daily-time-management)
-        - [Study progression strategy](#study-progression-strategy)
-        - [Rules](#rules)
-            - [Complete all resources before working on milestones](#complete-all-resources-before-working-on-milestones)
-            - [Milestones should also only be dedicated 3 hours a day](#milestones-should-also-only-be-dedicated-3-hours-a-day)
-            - [🔄 Resource Replacement Rule](#-resource-replacement-rule)
-            - [Milestones must be completed before moving to next phase](#milestones-must-be-completed-before-moving-to-next-phase)
-        - [Daily note template](#daily-note-template)
-        - [Weekly note template](#weekly-note-template)
+  - [Phase 1  — Foundations of Software Engineering + Basic Math](#phase-1---foundations-of-software-engineering--basic-math)
+    - [Phase 1 Books & Resources](#phase-1-books--resources)
+    - [Phase 1 App Milestone](#phase-1-app-milestone)
+  - [Phase 2  — DSA System design and more maths](#phase-2---dsa-system-design-and-more-maths)
+    - [Phase 2 Books and Resources](#phase-2-books-and-resources)
+    - [Phase 2 App Milestones](#phase-2-app-milestones)
+  - [Phase 3 Pre-Calculus, Calculus, and more Software Crafting](#phase-3-pre-calculus-calculus-and-more-software-crafting)
+    - [Phase 3 books and resources](#phase-3-books-and-resources)
+    - [Phase 3 App Milestones](#phase-3-app-milestones)
+  - [Phase 4 3D Math + Physics](#phase-4-3d-math--physics)
+    - [Phase 4 Books & Resources](#phase-4-books--resources)
+    - [Phase 4 App milestones](#phase-4-app-milestones)
+  - [Phase 5 Cooking physics and research](#phase-5-cooking-physics-and-research)
+    - [Phase 5 Books and resources](#phase-5-books-and-resources)
+    - [Phase 5 app milestones](#phase-5-app-milestones)
+  - [Study Guide](#study-guide)
+    - [Daily time management](#daily-time-management)
+    - [Study progression strategy](#study-progression-strategy)
+    - [Rules](#rules)
+      - [Complete all resources before working on milestones](#complete-all-resources-before-working-on-milestones)
+      - [Milestones should also only be dedicated 3 hours a day](#milestones-should-also-only-be-dedicated-3-hours-a-day)
+      - [🔄 Resource Replacement Rule](#-resource-replacement-rule)
+      - [Milestones must be completed before moving to next phase](#milestones-must-be-completed-before-moving-to-next-phase)
+    - [Daily note template](#daily-note-template)
+    - [Weekly note template](#weekly-note-template)
 
+<!-- /TOC -->
 <!-- /TOC -->
 
 ## Phase 1  — Foundations of Software Engineering + Basic Math
@@ -39,7 +39,8 @@ Everything you learn becomes directly integrated into the app as gamified module
 
 ### Phase 1 Books & Resources
 
-- [ ] [The Rust Programming Language](https://rust-book.cs.brown.edu/experiment-intro.html)
+- [ ] [The Rust Programming Language](https://rust-book.cs.brown.edu/experiment-intro.html)  <progress id="progressBar" max="22" value="1"></progress>
+
 - [ ] Refactoring: Improving the Design of Existing Code — Martin Fowler
 - [ ] Software Engineering at Google — Titus Winters, Tom Manshreck, Hyrum Wright
 - [ ] Dive Into Design Patterns: A modern eBook on design patterns and principles.
