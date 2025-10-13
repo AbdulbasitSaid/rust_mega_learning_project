@@ -51,8 +51,8 @@ Everything you learn becomes directly integrated into the app as gamified module
 - [ ] Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation — Jez Humble & David Farley
 - [ ] pro git
 - [ ] mental maths
-- [ ] [Grammar, Arithmetic, Basic geometry and measurement, Algebra basics  (khan academy)](https://www.khanacademy.org/profile/me/courses)
-- [ ] Rive basics and flutter animation basic
+- [ ] [Grammar, Arithmetic, Basic geometry and measurement, Algebra basics  (Khan Academy)](https://www.khanacademy.org/profile/me/courses)
+- [ ] Rive basics and Flutter animation basics
 
 ### Phase 1 App Milestone
 
@@ -73,7 +73,7 @@ Everything you learn becomes directly integrated into the app as gamified module
 - [ ] Grokking Algorithms — Aditya Bhargava
 - [ ] Serge Lang’s Basic Mathematics
 - [ ] George Pólya’s How to Solve It
-- [ ] UML Distilled: A Brief Guide to the Standard Object Modeling Language — Martin Fowler
+- [ ] UML Distilled: A Brief Guide to the Standard Object Modelling Language — Martin Fowler
 - [ ] System Design Interview: An Insider’s Guide Vol. 1 — Alex Xu
 - [ ] System Design Interview: An Insider’s Guide Vol. 2 — Alex Xu
 - [ ] Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems — Martin Kleppmann
@@ -102,7 +102,7 @@ Everything you learn becomes directly integrated into the app as gamified module
 
 ### Phase 3 App Milestones
 
-- [ ] 🎮 Add Pre-calculus & Calculus gamified modules (limits, derivatives, integrals visualized with Rive animations)
+- [ ] 🎮 Add Pre-calculus & Calculus gamified modules (limits, derivatives, integrals visualised with Rive animations)
 - [ ] 🎮 Add gamified design patterns module (turn SE patterns into puzzles/quests)
 
 ## Phase 4 3D Math + Physics
@@ -121,7 +121,7 @@ Everything you learn becomes directly integrated into the app as gamified module
 
 ## Phase 5 Cooking physics and research
 
-🥅 Goal: Learn physics, how to research and add more more physics modules
+🥅 Goal: Learn physics, how to research and add more physics modules
 
 ### Phase 5 Books and resources
 
@@ -133,9 +133,9 @@ Everything you learn becomes directly integrated into the app as gamified module
 ### Phase 5 app milestones
 
 - [ ] 🎮 Add applied physics module (electricity, waves, thermodynamics gamified)
-- [ ] 🎮 Add research literacy module (teach problem-solving & scientific method in gamified way)
+- [ ] 🎮 Add research literacy module (teach problem-solving & scientific method in a gamified way)
 - [ ] 🌐 Grow app into multi-platform product with paid tiers + community features
-- [ ] ⚒️ Keep improve app modules
+- [ ] ⚒️ Keep improving app modules
 
 ## Study Guide
 
