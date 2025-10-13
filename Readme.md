@@ -27,3 +27,48 @@
 - **Status legend:** ⏳ In Progress | ✅ Completed | 🕓 Planned  
 - Add optional columns: *Start Date*, *End Date*, *Output (Project/Video/Article)*  
 - Review every 4 weeks → teach what you learned on Fri–Sun
+
+```mermaid
+flowchart TB
+subgraph S1["Stage 1 - Foundations"]
+    s1n["Grammar"] --> s1s["Rust"]
+end
+subgraph S2["Stage 2 - Arithmetic & Habits"]
+    s2n["Arithmetic Algebra Geometry"] --> s2s["ProGit & SE@Google"]
+end
+subgraph S3["Stage 3 - Problem Solving"]
+    s3n["BasicMath & HowToSolve"] --> s3s["DSA & Algorithms"]
+end
+subgraph S4["Stage 4 - Calculus & Design"]
+    s4n["PreCalc & Calculus"] --> s4s["DesignPatterns & UML"]
+end
+subgraph S5["Stage 5 - Logic & DB"]
+    s5n["Logic & LinearAlgebra"] --> s5s["Postgres & DBConcepts"]
+end
+subgraph S6["Stage 6 - OS & Delivery"]
+    s6n["OSTEP"] --> s6s["Docker & ContinuousDelivery"]
+end
+subgraph S7["Stage 7 - Networking & Design"]
+    s7n["Networking"] --> s7s["SystemDesign"]
+end
+subgraph S8["Stage 8 - DevOps Foundations"]
+    s8n["PhoenixProject"] --> s8s["Terraform K8s Cloud"]
+end
+subgraph S9["Stage 9 - DevOps Deep Dive"]
+    s9n["DevSecOps Principles"] --> s9s["Monitoring & Pipeline Security"]
+end
+subgraph S10["Stage10 - Security"]
+    s10n["Security Engineering"] --> s10s["WebSec & Crypto"]
+end
+subgraph S11["Stage11 - Distributed Systems"]
+    s11n["Research Methods"] --> s11s["DataIntensive & Distributed"]
+end
+subgraph S12["Stage12 - Physics & Animation"]
+    s12n["Physics & 3DMath"] --> s12s["Rive & Flutter Anim"]
+end
+subgraph S13["Stage13 - Capstone"]
+    s13n["Research & Teaching"] --> s13s["GamifiedPlatform"]
+end
+
+s1n --> s1s --> s2n --> s2s --> s3n --> s3s --> s4n --> s4s --> s5n --> s5s --> s6n --> s6s --> s7n --> s7s --> s8n --> s8s --> s9n --> s9s --> s10n --> s10s --> s11n --> s11s --> s12n --> s12s --> s13n --> s13s
+```
